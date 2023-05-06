@@ -2,7 +2,7 @@ name: Build Vite Frontend
 run-name: ${{ github.actor }} is build vite frontend
 on: [push]
 jobs:
-  build and deploy website:
+  build-and-deploy-website:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
