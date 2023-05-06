@@ -5,21 +5,6 @@ importers:
   .:
     specifiers: {}
 
-  packages/learn-github-actions:
-    specifiers:
-      '@vitejs/plugin-vue': ^4.1.0
-      typescript: ^5.0.2
-      vite: ^4.3.2
-      vue: ^3.2.47
-      vue-tsc: ^1.4.2
-    dependencies:
-      vue: 3.2.47
-    devDependencies:
-      '@vitejs/plugin-vue': 4.2.1_vite@4.3.5+vue@3.2.47
-      typescript: 5.0.4
-      vite: 4.3.5
-      vue-tsc: 1.6.4_typescript@5.0.4
-
   packages/vite-frontend:
     specifiers:
       '@vitejs/plugin-vue': ^4.1.0
