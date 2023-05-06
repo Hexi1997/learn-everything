@@ -1,6 +1,8 @@
 name: Build Vite Frontend
 run-name: ${{ github.actor }} is build vite frontend
 on: [push]
+permissions:
+  contents: write
 jobs:
   build-and-deploy-website:
     runs-on: ubuntu-latest
